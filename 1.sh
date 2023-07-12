@@ -13,7 +13,7 @@ read answer
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then 
 
-echo -e $CYAN
+echo -e $RESET
 
 echo "git clone https://github.com/memeee/mbape.git";
 git clone 'https://github.com/memeee/mbape.git';
